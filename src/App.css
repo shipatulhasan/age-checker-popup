@@ -37,13 +37,14 @@
 }
 .nvd-age-checker .modal-img-container {
   display: flex;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   color: #34d399;
   justify-content: center;
   width: 100%;
 }
 .nvd-age-checker .modal-img-container img {
   object-fit: contain;
+  max-width: 70px;
 }
 .nvd-age-checker .modal .modal-title {
   margin-bottom: 0.5rem;
@@ -64,6 +65,7 @@
   text-align: center;
 }
 .nvd-age-checker .modal-btn-container {
+  margin-top: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
